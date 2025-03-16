@@ -1,0 +1,37 @@
+
+icetime topological timing analysis report
+==========================================
+
+Report for critical path:
+-------------------------
+
+        lc40_23_1_7 (LogicCell40) [clk] -> lcout: 1.491 ns
+     1.491 ns net_86592 (frequency_counter_i[0])
+        t11 (LocalMux) I -> O: 1.099 ns
+        inmux_23_1_90465_90492 (InMux) I -> O: 0.662 ns
+        lc40_23_1_0 (LogicCell40) in1 -> carryout: 0.675 ns
+     3.928 ns t2
+        lc40_23_1_1 (LogicCell40) carryin -> carryout: 0.278 ns
+     4.206 ns net_90496 (testwire_SB_LUT4_I2_O_SB_LUT4_O_1_I3[3])
+        lc40_23_1_2 (LogicCell40) carryin -> carryout: 0.278 ns
+     4.484 ns net_90502 (testwire_SB_LUT4_I2_O_SB_LUT4_O_2_I3[3])
+        lc40_23_1_3 (LogicCell40) carryin -> carryout: 0.278 ns
+     4.762 ns net_90508 (testwire_SB_LUT4_I2_O_SB_LUT4_O_3_I3)
+        lc40_23_1_4 (LogicCell40) carryin -> carryout: 0.278 ns
+     5.040 ns net_90514 (testwire_SB_LUT4_I2_I3)
+        inmux_23_1_90514_90524 (InMux) I -> O: 0.662 ns
+     5.702 ns net_90524 (testwire_SB_LUT4_I2_I3)
+        lc40_23_1_5 (LogicCell40) in3 [setup]: 0.583 ns
+     6.285 ns net_86590 (testwire$SB_IO_OUT)
+
+Resolvable net names on path:
+     1.491 ns ..  3.252 ns frequency_counter_i[0]
+     4.206 ns ..  4.206 ns testwire_SB_LUT4_I2_O_SB_LUT4_O_1_I3[3]
+     4.484 ns ..  4.484 ns testwire_SB_LUT4_I2_O_SB_LUT4_O_2_I3[3]
+     4.762 ns ..  4.762 ns testwire_SB_LUT4_I2_O_SB_LUT4_O_3_I3
+     5.040 ns ..  5.702 ns testwire_SB_LUT4_I2_I3
+                  lcout -> testwire$SB_IO_OUT
+
+Total number of logic levels: 6
+Total path delay: 6.29 ns (159.10 MHz)
+

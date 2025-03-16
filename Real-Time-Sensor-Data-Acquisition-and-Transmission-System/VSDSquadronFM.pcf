@@ -1,0 +1,8 @@
+set_io  led_green 40
+set_io  led_red	39
+set_io  led_blue 41
+set_io  uarttx 14
+set_io  uartrx 15
+set_io  hw_clk 20
+set_io echo 3
+set_io trig 4

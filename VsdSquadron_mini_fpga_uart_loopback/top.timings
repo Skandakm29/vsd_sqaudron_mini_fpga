@@ -1,0 +1,22 @@
+
+icetime topological timing analysis report
+==========================================
+
+Report for critical path:
+-------------------------
+
+        pre_io_24_0_0 (PRE_IO) [clk] -> DIN0: 1.105 ns
+     1.105 ns net_90540 (uarttx$SB_IO_OUT)
+        odrv_24_0_90540_86617 (Odrv4) I -> O: 0.649 ns
+        t0 (LocalMux) I -> O: 1.099 ns
+        inmux_23_0_90404_90391 (IoInMux) I -> O: 0.662 ns
+     3.516 ns net_90391 (uarttx$SB_IO_OUT)
+        pre_io_23_0_0 (PRE_IO) DOUT0 [setup]: 0.187 ns
+     3.703 ns io_pad_23_0_0_din
+
+Resolvable net names on path:
+     1.105 ns ..  3.516 ns uarttx$SB_IO_OUT
+
+Total number of logic levels: 1
+Total path delay: 3.70 ns (270.08 MHz)
+
