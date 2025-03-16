@@ -5,7 +5,7 @@ This repo contains four FPGA-based projects showcasing real-time UART communicat
 <img src="https://github.com/user-attachments/assets/a8bb3868-4454-48b9-9a43-8db6f9467c5c" alt="VSDSquadron mini fpga" width="400"/>
 
 
-## 📌 About the Board
+##  About the Board
 The **VSD Squadron Mini FPGA** is a beginner-friendly **open-source FPGA board** designed for rapid prototyping and digital system implementation.
 
 ### **Board Specifications**
@@ -14,7 +14,7 @@ The **VSD Squadron Mini FPGA** is a beginner-friendly **open-source FPGA board**
 🔹 **General Purpose I/O (GPIO)**: 32 accessible pins  
 🔹 **Connectivity**: FTDI FT232H USB-to-SPI for programming & debugging  
 🔹 **Multipliers**: 8 DSP multipliers for arithmetic operations  
-
+**[View the Datasheet](https://www.vlsisystemdesign.com/wp-content/uploads/2025/01/VSDSquadronFMDatasheet.pdf)** 
 **For more details, visit the official website:** [VSD Official Page](https://www.vlsisystemdesign.com/vsdsquadronfm/)  
 
 ---
@@ -24,13 +24,13 @@ The **VSD Squadron Mini FPGA** is a beginner-friendly **open-source FPGA board**
 
 This repository contains **five FPGA-based projects**, each focusing on different aspects of **digital design, communication, and real-time processing** using the **VSD Squadron Mini FPGA**.
 
-| #  | Project Name                                         | Description |
+|  | Project Name                                         | Description |
 |----|------------------------------------------------------|-------------|
-| 1️⃣ | [Blink LED](https://github.com/Skandakm29/vsd_sqaudron_mini_fpga/tree/master/VsdSquadron_mini_fpga_1)                  | Basic FPGA LED blink test |
-| 2️⃣ | [UART Loopback](https://github.com/Skandakm29/vsd_sqaudron_mini_fpga/tree/master/VsdSquadron_mini_fpga_uart_loopback)          | Simple UART TX-RX loopback |
-| 3️⃣ | [UART Transmitter](https://github.com/Skandakm29/vsd_sqaudron_mini_fpga/tree/master/Vsd_squadron_mini_Fpga_3)    | Sends serial data from FPGA to an external device |
-| 4️⃣ | [UART Sensor-Based Transmitter](https://github.com/Skandakm29/vsd_sqaudron_mini_fpga/tree/master/Vsd_squadron_mini_Fpga_3) | Sends sensor data via UART |
-| 5️⃣ | [Real-Time Sensor Data Acquisition](https://github.com/Skandakm29/vsd_sqaudron_mini_fpga/tree/master/Real-Time-Sensor-Data-Acquisition-and-Transmission-System) | Collects and processes sensor data for transmission |
+| 1 | [Blink LED](https://github.com/Skandakm29/vsd_sqaudron_mini_fpga/tree/master/VsdSquadron_mini_fpga_1)                  | Basic FPGA LED blink test |
+| 2| [UART Loopback](https://github.com/Skandakm29/vsd_sqaudron_mini_fpga/tree/master/VsdSquadron_mini_fpga_uart_loopback)          | Simple UART TX-RX loopback |
+| 3 | [UART Transmitter](https://github.com/Skandakm29/vsd_sqaudron_mini_fpga/tree/master/Vsd_squadron_mini_Fpga_3)    | Sends serial data from FPGA to an external device |
+| 4 | [UART Sensor-Based Transmitter](https://github.com/Skandakm29/vsd_sqaudron_mini_fpga/tree/master/Vsd_squadron_mini_Fpga_3) | Sends sensor data via UART |
+| 5 | [Real-Time Sensor Data Acquisition](https://github.com/Skandakm29/vsd_sqaudron_mini_fpga/tree/master/Real-Time-Sensor-Data-Acquisition-and-Transmission-System) | Collects and processes sensor data for transmission |
 
  **Each project has a dedicated README with implementation details, Verilog source files, and simulation outputs.**  
 Click on a project name to explore more details!
