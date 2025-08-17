@@ -39,6 +39,23 @@ Click on a project name to explore more details!
 ---
 
 ##  Setup & Installation
+### **Install the required tool chain**
+~~~
+sudo apt update
+~~~
+### **Install synthesis, P&R, bitstream, and debugging tools**
+~~~
+sudo apt install -y \
+  yosys \
+  nextpnr-ice40 \
+  icestorm \
+  iverilog \
+  gtkwave \
+  picocom \
+  make \
+  git
+~~~
+
 ### **Clone the Repository**
 
 After installing the required tools, **clone this repository**:
